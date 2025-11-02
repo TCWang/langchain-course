@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    // Your general override to show all dotfiles
+    "**/.git*": false,
+
+    // Specific overrides for the files you need, just in case
+    // a default is preventing the general rule from working.
+    "**/.env": false,
+    "**/.venv": false
+  }
+
+  // Check if the Python extension is hiding the .venv folder.
+  // Setting this to null or removing it should ensure it's not hidden.
+  // "python.venvFolders": null
+}
